@@ -1,0 +1,62 @@
+*{
+margin: 1px;
+padding: 0px;
+}
+.navbar{
+display: flex;
+padding: 10px;
+}
+.short-p{
+margin-top: 31px;
+margin-left: 155px;
+}
+.Sign-In{
+margin-top: 24px;
+margin-left: 725px;
+padding: 15px 30px;
+border: 1px solid #006A50;
+font-weight: 18px;
+color: #006A50;
+border-radius: 7px;
+
+}
+.banner-father{
+display: flex;
+justify-content: space-around;
+border-radius: 10px;
+margin-top: 20px;
+margin-left: 160px;
+margin-right: 160px;
+width: 1000px;
+height: 360px;
+border:1px solid #C6E4D6;
+background-color: #C6E4D6;\
+}
+.hero-pic{
+box-sizing: border-box;
+max-width: 400px;
+padding: 20px;
+margin-left: 59px;
+margin-top: 0px;
+}
+.short-text{
+margin-top: 117px;
+margin-bottom: 16px;
+}
+.heading-text{
+size: 56px;
+}
+.En-Btn{
+margin-top: 41px;
+padding-top: 17px;
+padding-bottom: 17px;
+padding-left: 34px;
+padding-right: 34px;
+background-color: #006A50;
+color: white;
+border-radius: 5px;
+border-color: #006A50;
+}
+
+
+
