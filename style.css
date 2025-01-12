@@ -1,7 +1,17 @@
 *{
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 300 to 700
+
+.fira-code-<uniquifier> {
+  font-family: "Fira Code", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
 margin: 1px;
 padding: 0px;
 }
+
 .navbar{
 display: flex;
 padding: 10px;
@@ -30,7 +40,7 @@ margin-right: 160px;
 width: 1000px;
 height: 360px;
 border:1px solid #C6E4D6;
-background-color: #C6E4D6;\
+background-color: #C6E4D6;
 }
 .hero-pic{
 box-sizing: border-box;
@@ -42,6 +52,7 @@ margin-top: 0px;
 .short-text{
 margin-top: 117px;
 margin-bottom: 16px;
+color:rgba(60, 145, 106, 1);
 }
 .heading-text{
 size: 56px;
@@ -57,6 +68,112 @@ color: white;
 border-radius: 5px;
 border-color: #006A50;
 }
+.heading-text-2{
+margin-top: 80px;
+margin-left: 160px;
+}
+.short-p{
+letter-spacing: 0%;
+margin-top: 24px;
+margin-bottom: 32px;
+line-height: 24px;
+color: rgba(14, 14, 14, 0.7);
+}
+
+.middle-section{
+display: flex;
+justify-content: space-around;
+margin-top: 32px;
 
 
+}
+.d-Transformation{
+margin-left: 160px;
+margin-right: 24px;
+background-color:rgba(84, 144, 245, 0.2);
+border-radius: 10px;
+height: 325px;
+width: 410px;
 
+}
+.G-Energy{
+margin-right: 24px;
+background-color:#C6E4D6;
+border-radius: 10px;
+height: 325px;
+width: 410px;
+}
+.M-Infrastructure{
+margin-right: 160px;
+background-color: #F7EBCF;
+border-radius: 10px;
+height: 325px;
+width: 410px;
+}
+.small-pic{
+margin-top:32px ;
+margin-left:32px ;
+}
+/* learn more button */
+.Learn-More-1, .Learn-More-2, .Learn-More-3 {
+hanging-punctuation: 41px;
+width: 122px;
+padding: 10px;
+color: white;
+margin-top: 40px;
+margin-left: 32px;
+border-radius: 8px;
+border: 1px solid #d5e1de;
+}
+.Learn-More-1{
+border-color: #5490F5;
+background-color: #5490F5;
+}
+
+.Learn-More-2{
+border-color: #09A15C;
+background-color: #09A15C;
+}
+
+.Learn-More-3{
+border-color: #FFC239;
+background-color: #FFC239;
+}
+.banner-h{
+margin-top: 24px;
+margin-bottom: 12px;
+margin-left: 32px;
+}
+.short-p1, .short-p2, .short-p3{
+margin-top: 12px;
+margin-left: 32px;
+}
+.about-yunus{
+margin-top: 32px;
+background-color:whitesmoke;
+background-image: url("assets/quote-bg.png");
+background-repeat: no-repeat;
+width: 1000px;
+hanging-punctuation: 256px;
+margin-top: 32px;
+margin-right: 160px;
+margin-left: 160px;
+border-radius: 8px;
+}
+.about-y{
+padding-top: 48px;
+padding-left: 24px;
+padding-right: 24px;
+color: rgba(14, 14, 14, 0.8);
+}
+.y-name{
+margin-top: 12px;
+margin-left: 24px;
+color: rgba(14, 14, 14, 0.8);
+}
+.position{
+margin-top: 4px;
+padding-bottom: 48px;
+margin-left: 23px;
+color: rgba(14, 14, 14, 0.6);
+}
