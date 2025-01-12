@@ -1,15 +1,15 @@
 *{
 // <uniquifier>: Use a unique and descriptive class name
-// <weight>: Use a value from 300 to 700
 
 .fira-code-<uniquifier> {
   font-family: "Fira Code", serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: 700;
   font-style: normal;
 }
 margin: 1px;
 padding: 0px;
+
 }
 
 .navbar{
@@ -176,4 +176,41 @@ margin-top: 4px;
 padding-bottom: 48px;
 margin-left: 23px;
 color: rgba(14, 14, 14, 0.6);
+}
+/* card section */
+
+.news-section{
+margin-top: 80px;
+margin-left: 160px;
+
+}
+.Recent-News{
+margin-bottom: 24px;
+}
+.father-card, .father-card-2{
+margin-top: 32px;
+margin-left: 160px;
+max-width: 1000px;
+height: 300px;
+background-color:whitesmoke;
+padding: 48px;
+display: flex;
+}
+.s-1{
+margin-right: 32px;
+}
+.bd-Lns{
+margin-top: 56px;
+margin-bottom: 12px;
+}
+.date-time{
+margin-top: 12px;
+margin-bottom: 12px;
+}
+.read-more{
+margin-top: 32px;
+width: 139px;
+height: 48px;
+color: white;
+background-color: #006A50;
 }
