@@ -277,9 +277,9 @@ margin-left: 24px;
 }
 input{
 height:24px;
-width:1000px;
+width:800px;
 margin-top: 32px;
-margin-left: 124px;
+margin-left: 220px;
 text-align: center;
 font-size:large;
 opacity: 100%;
@@ -297,4 +297,46 @@ margin-left: 580px;
 border-radius: 5px;
 background-color: #006A50;
 border: #006A50;
+}
+.Newsletter-Section{
+margin-top: 80px;
+text-align: center;
+background-color: #C6E4D6;
+padding:100px 80px;
+width:800px ;
+height:150px ;
+margin-left: 160px;
+border-radius: 8px;
+}
+.Subscribe-btn{
+padding-top: 11px;
+padding-bottom:11px ;
+padding-right: 30px;
+padding-left:30px ;
+border: #006A50;
+background-color: #006A50;
+color: white;
+border-radius: 5px;
+}
+.email-section{
+height: 10px;
+width: 400px;
+padding: 8px;
+text-align:start;
+font-size: small;
+padding: 10px;
+margin-top: 24px;
+margin-left: 30px;
+}
+.subscribe-title-newsletter{
+margin-bottom: 16px;
+}
+.short-news-p{
+color: rgba(14, 14, 14, 0.74);
+margin-bottom: 24px;
+}
+.small-subtitle-we{
+color:rgba(14, 14, 14, 0.74) ;
+opacity: 100%;
+margin-top: 24px;
 }
